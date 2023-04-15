@@ -1,0 +1,105 @@
+<html>
+    <head>
+     
+        <title>Capstone Project</title>
+         <link href="css/Feedbackform.css" rel="stylesheet">
+         <script href="js/script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+         <!--jquery-->
+         <script src="js/lib/jquery-2.1.4.js"></script>
+         <!--jquery validation-->
+         <script src="js/lib/jquery.validate.js"></script>
+         <!--our stuff-->
+         <script src="js/facade.js"></script>
+         <script src="js/util.js"></script>
+         <script src="js/global.js"></script>
+         <script src="js/database.js"></script>
+         <script src="js/DAL.js"></script>
+         <script src="js/eventclass.js"></script>
+    
+
+        <style>
+            body{
+                background-image: url(image/feedbackform.jpg);
+                background-size: cover;
+                width:60%;
+                padding-left: 300px;
+                padding-top:100px;
+            }</style>
+            <script>
+              function redirect () {
+         setTimeout(myURL, 5000);
+         windows.location.href = "index.html";
+      }
+
+              function showAlert(){
+                alert("Thanks for your feedback");
+                if(alert){
+                  windows.location.href = "index.html";
+                }
+              }
+              document.getElementsByClassName("submit").onclick = function () {
+        location.href = "index.html";
+    };
+            </script>
+    </head>
+<body>
+    <section>
+            <table>
+           
+                <div class="container">
+                  <legend>We'd welcome your Feedback</legend><br>
+                  <form action="/action_page.php">
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="fname">First Name</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="lname">Last Name</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </div>
+                  </div>
+                      
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="country">Country</label>
+                    </div>
+                    <div class="col-75">
+                      <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="subject">Your Feedback</label>
+                    </div>
+                    <div class="col-75">
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="button">
+                    <a class="submit" href="#" onclick="showAlert()">Submit</a>
+                    <a class="back"  href="index.html" >Back</a>  
+                    
+                  </div>
+                  </form>
+                </div>
+                
+             </table>
+    </section>
+    
+</body>
+</html>
