@@ -1,0 +1,111 @@
+
+.weirdContainer{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    width:70%;
+    padding-left:240px;
+    min-height:100vh;
+}
+.weirdCard{
+    position: relative;
+    width:280px;
+    height:320px;
+    margin:30px;
+    background:#287bff;
+    border-radius: 20px;
+    border-bottom-left-radius: 160px;
+    border-bottom-right-radius: 160px;
+    box-shadow: 0 15px 0 #fff,
+    inset 0 -15px 0 rgba(255,255,255,0.25), 
+    0 45px 0 #fff(0,0,0,0.15);
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+.weirdCard::before{
+    content: '';
+    position: absolute;
+    top: -140px;
+    left: -40%;
+    width: 100%;
+    height: 120%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2));
+    transform: rotate(35deg);
+    pointer-events: none;
+    filter: blur(5px);
+}
+.weirdCard:nth-child(1){
+    background: linear-gradient(to bottom, #ff2ae0, #645bf6 )
+}
+.weirdCard:nth-child(2){
+    background: linear-gradient(to bottom, #ffec61, #f321d7 )
+}
+.weirdCard:nth-child(3){
+    background: linear-gradient(to bottom, #24ff72, #9a4edd )
+}
+.weirdCard:nth-child(4){
+    background: linear-gradient(to bottom, #ff2ae0, #645bf6 )
+}
+.weirdCard:nth-child(5){
+    background: linear-gradient(to bottom, #ffec61, #f321d7 )
+}
+.weirdCard:nth-child(6){
+    background: linear-gradient(to bottom, #24ff72, #9a4edd )
+}
+.weirdIcon{
+    position:absolute;
+    width:140px;
+    height:120px;
+    background: white;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 0 10px 0 rgba(0,0,0,0.1),
+    inset 0 -8px 0 #fff;
+    
+    display:flex;
+    justify-content: center;
+}
+.weirdIcon::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 50px;
+    height: 50px;
+    background:transparent;
+    border-top-right-radius:50px;
+    box-shadow:  15px -15px 0 15px white;
+}
+.weirdIcon::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -50px;
+    width: 50px;
+    height: 50px;
+    background:transparent;
+    border-top-left-radius: 50px;
+    box-shadow:  -15px -15px 0 15px white;
+}
+.weirdIcon ion-icon{
+
+    position:relative;
+    font-size:4em;
+    z-index:100000;
+    --ionicon-stroke-width: 24px;
+}
+.weirdContent{
+    position:absolute;
+    width:100%;
+    padding:30px;
+    padding-top:140px;
+    text-align: center;
+}
+.weirdContent h1{
+    font-size:28px;
+    color:white;
+}

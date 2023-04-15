@@ -1,0 +1,52 @@
+
+.loginwrap{
+    padding-left:50px;
+}
+.logincontent{
+    background-color:#6927ff ;
+    width:90%;
+}
+.loginImg{
+    width:55%;
+    float:left;
+    border: 1px solid white;    
+    height:500px;
+}
+.loginImg{  
+  background-color:#6927ff ;
+  
+}
+.loginImg img{
+    width:50%;
+    padding-left:95px;
+    padding-top:150px;
+}
+.loginForm{
+    width:44.5%;
+    float:left;
+    border: 1px solid white;    
+    height:500px;
+}
+.logHead{
+    font-size:30px;
+    text-align: center;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }

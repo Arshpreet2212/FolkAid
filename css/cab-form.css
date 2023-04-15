@@ -1,0 +1,89 @@
+section{
+    width: 100%;
+    overflow: hidden;
+}
+/*--main pic---*/
+.homecab img{
+    width:100%;
+    height:300px;
+}
+
+.about{
+    text-align: center;
+    position:absolute;
+    top:100px;
+    left:550px;
+    background-color: white;
+    opacity: 0.8;
+    padding: 10px 70px 10px 70px;
+}
+
+.cab-form{
+    width:100%;
+    padding-left: 250px;
+}
+  .cab-inner{
+    width:70%;
+    padding-top:100px ;
+    justify-content: center;
+    padding:20px;
+    padding-bottom: 60px;
+    background: #f9fafc;
+ }
+ 
+ .cab-form form{
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    background: #fff;
+    text-align: center;
+ }
+ 
+ 
+input[type=datetime-local] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+
+ .cab-form form input,
+ .cab-form form select{
+    width: 100%;
+    padding:10px 15px;
+    font-size: 17px;
+    margin:8px 0;
+    background: #eee;
+    border-radius: 5px;
+ }
+ 
+ .cab-form form select option{
+    background: #fff;
+ }
+ 
+ .cab-form form .form-btn{
+    color:black;
+    background:  rgb(222, 168, 7);
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+ }
+ 
+ .cab-form form .form-btn:hover{
+    color: rgb(222, 168, 7);
+    background: black;
+ }
+ 
+ .cab-form form .error-msg{
+    margin:10px 0;
+    display: block;
+    background: crimson;
+    color:#fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding:10px;
+ }
+  

@@ -1,0 +1,83 @@
+
+.sec{
+    padding-left: 300px;
+}
+.card{
+    width: 70%;
+    padding:20px;
+    background-color:#d9d9d9;
+}
+.card2{
+    width: 70%;
+    padding:20px;
+    border: 2px solid black;
+    background-color:white;
+}
+.grid{
+    overflow:hidden;       
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+.icon{
+    width: 30%;
+    padding-left:50px;
+    float: left;
+}
+.text{
+    width: 60%;
+    padding-top:50px;
+    text-align: justify;
+    margin:0px;
+    float:left;
+}
+.info{
+    padding-left:50px;
+}
+
+.col{
+    padding-left:50px;
+}
+
+.row{
+    display: grid;    
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    row-gap: 50px;
+    padding-left:45px;
+    float:left;
+}
+.grid1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+}
+.icon1{
+    float: left;
+    width:100%;
+    padding-left:80px;
+}
+.info1{
+    text-align: center;
+    padding-top:50px;
+}
+.para1{
+    font: 1.5em sans-serif;
+    font-weight: bold;
+}
+.para1:hover{
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+.buttonclass{
+    text-align: center;
+
+}
+.buttonclass1{
+    font: 2em sans-serif;
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,25 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    height:500px;
+    padding-left: 120px;
+    padding-top: 70px;
+  }
+  .grid-child1{
+    height: 700px;
+  }
+  .grid-child1 img{
+    object-fit: cover;
+    width: 700px;
+    height: 500px;
+  }
+  .grid-child2{
+    padding-top: 100px;
+    padding-left: 150px;
+  }
+  
+.grid-child2 h1{
+    font-size:38px;
+}
